@@ -5,6 +5,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.6'
 
+gem 'bootsnap', '>= 1.4.2', require: false
 gem 'jsonapi-serializer'
 gem 'mongoid', '~> 7.2.0'
 gem 'oj'
