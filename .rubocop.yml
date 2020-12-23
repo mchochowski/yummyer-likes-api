@@ -1,0 +1,14 @@
+AllCops:
+  TargetRubyVersion: 2.6
+
+Style/Documentation:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 100
+
+Metrics/MethodLength:
+  Max: 10
+
+Metrics/BlockLength:
+  ExcludedMethods: ['describe', 'context']

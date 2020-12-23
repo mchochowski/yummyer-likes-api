@@ -1,0 +1,14 @@
+development:
+  clients:
+    default:
+      uri: mongodb+srv://dbuser:8yyscQhg7r7ng3n0@yummyerdevelopmentclust.agt2m.mongodb.net/yummyer?retryWrites=true&w=majority
+      options:
+        server_selection_timeout: 5
+test:
+  clients:
+    default:
+      database: yummyer_test
+      hosts:
+        - localhost:27017
+      options:
+        server_selection_timeout: 1
