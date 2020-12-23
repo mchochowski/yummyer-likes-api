@@ -9,7 +9,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'jsonapi-serializer'
 gem 'mongoid', '~> 7.2.0'
 gem 'oj'
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 5.1'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 
 group :development, :test do
