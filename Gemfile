@@ -14,12 +14,9 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
-  gem 'faker'
-end
-
-group :test do
   gem 'database_cleaner-mongoid'
   gem 'factory_bot_rails'
+  gem 'faker'
   gem 'rspec-rails'
   gem 'webmock'
 end
