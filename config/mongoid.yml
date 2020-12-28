@@ -1,4 +1,4 @@
-development:
+default:
   clients:
     default:
       uri: mongodb+srv://dbuser:8yyscQhg7r7ng3n0@yummyerdevelopmentclust.agt2m.mongodb.net/yummyer?retryWrites=true&w=majority
